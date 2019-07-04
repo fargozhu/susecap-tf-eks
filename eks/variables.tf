@@ -37,3 +37,12 @@ variable "susecap-domain" {
   type    = "string"
 }
 
+variable "susecap-admin-password" {
+  default = "Demo123$"
+  type    = "string"
+}
+
+variable "susecap-admin-client-secret" {
+  default = "s3cret"
+  type    = "string"
+}
